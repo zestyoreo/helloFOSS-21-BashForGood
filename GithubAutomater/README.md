@@ -1,3 +1,4 @@
+# Project Objectives
 It is only meant to be that we involve a task to automate git operations while promoting open source :P. Instead of repeatedly typing the same commands to commit files to a github repository, why don't you write a simple bash script to do it for you.
 
 
@@ -9,3 +10,27 @@ You have to code a bash script which when run from inside a git repository in yo
 
 Hope you like performing this task. Happy Coding!
 
+# Using github_automator script
+1. Use the command 
+```console
+@linux_warrior: bash github_automator.sh
+```
+2. It will pull the remote repo contents.
+```console
+....Pulling content from remote repo....
+Already up to date.
+```
+3. Stage all files which are modified and/or untracked (excluding github_automator.sh).
+```console
+....Staging all files....
+```
+4. Ask you for a commit message which you can enter
+```console
+Enter message to add to commit:
+<Enter your message here>
+```
+5. Push the commited changes on the current branch you are present on.
+ ```console
+....Pushing commit to remote repo....
+Everything up-to-date
+```

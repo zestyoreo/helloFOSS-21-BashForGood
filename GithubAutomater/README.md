@@ -11,6 +11,7 @@ You have to code a bash script which when run from inside a git repository in yo
 Hope you like performing this task. Happy Coding!
 
 # Using github_automator script
+Copy and paste the script in the folder where the repo is present.<br><br>
 1. Use the command 
 ```console
 @linux_warrior: bash github_automator.sh
